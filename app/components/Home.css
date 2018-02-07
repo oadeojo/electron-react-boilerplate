@@ -1,14 +1,16 @@
-.container {
-  position: absolute;
-  top: 30%;
-  left: 10px;
-  text-align: center;
+.trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color 0.3s;
 }
 
-.container h2 {
-  font-size: 5rem;
+.trigger:hover {
+  color: #1890ff;
 }
-
-.container a {
-  font-size: 1.4rem;
+.logo {
+  height: 32px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px;
 }
